@@ -12,7 +12,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-https://luca5dev.github.io/ShopFast/produtos
+https://luca5dev.github.io/ShopFast/
 
 ## Running unit tests
 
