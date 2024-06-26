@@ -7,11 +7,11 @@ import {MatSnackBar} from '@angular/material/snack-bar';
 export class NotificacaoService {
 
   constructor(
-    private SnackBar: MatSnackBar
+    private snackBar: MatSnackBar
   ) { }
 
-  notificar(mensagem: string){
-    this.SnackBar.open(mensagem, "Ok", {
+  notificar(mensagem: string) {
+    this.snackBar.open(mensagem, "Ok", {
       duration: 2000,
       verticalPosition: "top",
       horizontalPosition: "center"

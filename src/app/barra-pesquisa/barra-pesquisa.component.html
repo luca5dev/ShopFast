@@ -1,1 +1,4 @@
-<p>barra-pesquisa works!</p>
+<form class="search-form" (ngSubmit)="pesquisar()">
+    <input type="text" name="descricao" [(ngModel)]="descricao">
+    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+</form>
