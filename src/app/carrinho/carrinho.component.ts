@@ -33,7 +33,7 @@ export class CarrinhoComponent implements OnInit {
   }
 
   comprar(){
-    alert("Parabéns, você finalizou sua comora!")
+    alert("Parabéns, você finalizou sua compra!")
     this.carrinhoSerice.limparCarrinho();
     this.router.navigate(["produtos"]);
   }
